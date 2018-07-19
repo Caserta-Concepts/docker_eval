@@ -1,0 +1,10 @@
+version: '2.3'
+services:
+  pyspark:
+    build:
+      context: pyspark-notebook/
+    ports:
+      - "8888:8888"
+    environment:
+     - JUPYTER_ENABLE_LAB=yes
+     - NB_USER=caserta
