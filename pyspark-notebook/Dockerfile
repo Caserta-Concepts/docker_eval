@@ -55,6 +55,4 @@ USER root
 RUN wget http://s3-sa-east-1.amazonaws.com/caserta-notebooks/bw/Skills.ipynb -O work/Skills.ipynb
 RUN wget http://s3-sa-east-1.amazonaws.com/caserta-notebooks/bw/eval_data.csv  -O work/eval_data.csv
 
-
-
-
+RUN chmod 777 work/Skills.ipynb
