@@ -52,7 +52,17 @@ RUN conda install --quiet -y 'pyarrow' && \
 
 USER root
 
+RUN mkdir work/train.pqt
+RUN wget https://s3.amazonaws.com/caserta-bucket1/train.pqt/.part-r-00000-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet.crc -O work/train.pqt/.part-r-00000-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet.crc
+RUN wget https://s3.amazonaws.com/caserta-bucket1/train.pqt/.part-r-00001-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet.crc -O work/train.pqt/.part-r-00001-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet.crc
+RUN wget https://s3.amazonaws.com/caserta-bucket1/train.pqt/.part-r-00002-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet.crc -O work/train.pqt/.part-r-00002-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet.crc
+RUN wget https://s3.amazonaws.com/caserta-bucket1/train.pqt/.part-r-00003-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet.crc -O work/train.pqt/.part-r-00003-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet.crc
+RUN wget https://s3.amazonaws.com/caserta-bucket1/train.pqt/_SUCCESS -O work/train.pqt/_SUCCESS
+RUN wget https://s3.amazonaws.com/caserta-bucket1/train.pqt/part-r-00000-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet -O work/train.pqt/part-r-00000-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet
+RUN wget https://s3.amazonaws.com/caserta-bucket1/train.pqt/part-r-00001-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet -O work/train.pqt/part-r-00001-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet
+RUN wget https://s3.amazonaws.com/caserta-bucket1/train.pqt/part-r-00002-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet -O work/train.pqt/part-r-00002-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet
+RUN wget https://s3.amazonaws.com/caserta-bucket1/train.pqt/part-r-00003-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet -O work/train.pqt/part-r-00003-0ef98704-d41e-4eea-8c0a-86ac172c87fb.snappy.parquet
+
 RUN wget http://s3-sa-east-1.amazonaws.com/caserta-notebooks/bw/Skills.ipynb -O work/Skills.ipynb
-RUN wget http://s3-sa-east-1.amazonaws.com/caserta-notebooks/bw/eval_data.csv  -O work/eval_data.csv
 
 RUN chmod 777 work/Skills.ipynb
