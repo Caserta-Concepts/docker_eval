@@ -14,7 +14,7 @@ $ cd docker_eval
 $ docker build --tag=caserta_evaluation .
 $ docker run -p 8888:8888  -v $(pwd)/Caserta_evaluation:/Caserta_evaluation caserta_evaluation
 ```
-Note: When open the notebook, to get editing access, might need to left click the 'Not Trusted' to turn into 'Trusted'
+Note: when open the notebook, to get editing access, might need to left click the 'Not Trusted' to turn into 'Trusted'
 
 Note: when finished this test, clean up docker images:
 ```buildoutcfg
