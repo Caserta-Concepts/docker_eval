@@ -1,6 +1,7 @@
 # Caserta Evaluation
 
 1. Install Docker
+
 2. Pull and open repository in Terminal
 3. Run "docker build --tag=caserta_evaluation ." to build local docker images
 4. Run "docker run -p 8888:8888 caserta_evaluation " to launch docker container
@@ -17,8 +18,7 @@ $ docker run -p 8888:8888 caserta_evaluation
 Note: 
 
 1. When open the notebook, to get editing access, might need to left click the 'Not Trusted'(in the top-left corner) to turn into 'Trusted'
-
-2. When finished this test, 
+2. When finished this test:
 
       2.1. 'ctrl-C' twice to shut down the Jupiter and stop the docker container
 
