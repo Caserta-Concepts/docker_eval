@@ -14,9 +14,15 @@ $ cd docker_eval
 $ docker build --tag=caserta_evaluation .
 $ docker run -p 8888:8888 caserta_evaluation 
 ```
-Note: when open the notebook, to get editing access, might need to left click the 'Not Trusted'(in the top-left corner) to turn into 'Trusted'
+Note: 
 
-Note: when finished this test, clean up docker images:
+1. When open the notebook, to get editing access, might need to left click the 'Not Trusted'(in the top-left corner) to turn into 'Trusted'
+
+2. When finished this test, 
+
+      2.1. 'ctrl-C' twice to shut down the Jupiter and stop the docker container
+
+      2.2. Clean up docker images:
 ```buildoutcfg
 $ docker image rm -f caserta_evaluation
 ```
