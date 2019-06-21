@@ -3,7 +3,7 @@
 1. Install Docker
 
 2. Pull and open repository in Terminal
-3. Run "docker build --tag=caserta_evaluation ." to build local docker images
+3. Run "docker build --tag=caserta_evaluation ." to build local docker images, and the setup takes ~20 minutes.
 4. Run "docker run -p 8888:8888 caserta_evaluation " to launch docker container
 5. Go to jupyter link "localhost:8888" and complete the evaluation. 
 6. Download the notebook as a .ipynb file and send to Caserta
