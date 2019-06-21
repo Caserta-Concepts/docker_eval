@@ -3,10 +3,10 @@
 1. Install Docker
 
 2. Pull and open repository in Terminal
-3. Run "docker build --tag=caserta_evaluation ." to build local docker images, and the setup takes ~20 minutes.
+3. Run "docker build --tag=caserta_evaluation ." to build local docker images (may take up to 20 minutes to complete)
 4. Run "docker run -p 8888:8888 caserta_evaluation " to launch docker container
 5. Go to jupyter link "localhost:8888" and complete the evaluation. 
-6. Download the notebook as a .ipynb file and send to Caserta
+6. Download the notebook as a .ipynb file and send to Andre Chapman (andre@caserta.com)
 
 Steps 2/3/4 in bash
 ```
@@ -17,8 +17,8 @@ $ docker run -p 8888:8888 caserta_evaluation
 ```
 Note: 
 
-1. When open the notebook, to get editing access, might need to left click the 'Not Trusted'(in the top-left corner) to turn into 'Trusted'
-2. When finished this test:
+1. When opening the notebook, to get edit access, you may need to left-click the 'Not Trusted'(in the top-left corner) to turn into 'Trusted'
+1. When finished with this test:
 
       2.1. 'ctrl-C' twice to shut down the Jupiter and stop the docker container
 
