@@ -36,7 +36,7 @@ $ docker run -p 8888:8888 caserta_evaluation
     
     4. Run "docker run -p 8888:8888 caserta_evaluation " to launch docker container
 
-5. Back to Windows web browser, Go to jupyter link "  <your ip address (see above)>:8888  " and complete the evaluation.
+5. Back to Windows web browser, Go to jupyter link "  <your vm ip address (see above)>:8888  " and complete the evaluation.
 
 6. Download the notebook as a .ipynb file and send to Andre Chapman (andre@caserta.com)
 
