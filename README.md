@@ -50,7 +50,10 @@ $ docker run -p 8888:8888 caserta_evaluation
 ```
 
 *Windows 10 Pro, Enterprise or Education (Build 15063 or later) with 64bit:*
-TBD
+
+1. Install Docker for Windows
+
+2. Follow the same instructions as for Mac users
 
 ## Note: 
 
