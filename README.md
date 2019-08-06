@@ -28,13 +28,13 @@ $ docker run -p 8888:8888 caserta_evaluation
 
 4. In Docker Terminal:
 
-    4. Locate docker_eval dir, run "cd /c/Users/docker_eval"
+    1. Locate docker_eval dir, run "cd /c/Users/docker_eval"
     
-    5. Run "docker build --tag=caserta_evaluation ." to build local docker images (may take up to 20 minutes to complete)
+    2. Run "docker build --tag=caserta_evaluation ." to build local docker images (may take up to 20 minutes to complete)
     
-    6. Run "docker-machine ip" to get VM ip adddress, the output will look something like this: 192.168.99.104 
+    3. Run "docker-machine ip" to get VM ip adddress, the output will look something like this: 192.168.99.104 
     
-    7. Run "docker run -p 8888:8888 caserta_evaluation " to launch docker container
+    4. Run "docker run -p 8888:8888 caserta_evaluation " to launch docker container
 
 5. Back to Windows web browser, Go to jupyter link "  <your ip address (see above)>:8888  " and complete the evaluation.
 

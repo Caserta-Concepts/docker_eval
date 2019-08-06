@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70365070-e2ae-4e2b-98db-c04602565a23" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +25,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="292">
-                <caret line="38" column="28" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="28" />
+              <first_editor relative-caret-position="229">
+                <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
               </first_editor>
               <second_editor />
             </state>
@@ -101,7 +100,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1440" height="797" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.05567301" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -134,8 +132,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="292">
-            <caret line="38" column="28" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="28" />
+          <first_editor relative-caret-position="229">
+            <caret line="55" column="48" lean-forward="true" selection-start-line="55" selection-start-column="48" selection-end-line="55" selection-end-column="48" />
           </first_editor>
           <second_editor />
         </state>
