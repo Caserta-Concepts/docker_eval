@@ -19,7 +19,7 @@ $ docker run -p 8888:8888 caserta_evaluation
 
 ## For Windows User
 
-####Windows 7/8/10 home with 64bit:
+*Windows 7/8/10 home with 64bit:*
 1. Install Docker Toolbox: https://docs.docker.com/toolbox/toolbox_install_windows/
 
 2. Open Windows local Terminal, clone Github repo under `C:\Users ` (Toolbox mounts `C:\Users` into the VMs at `/c/Users`)
@@ -47,7 +47,8 @@ $ docker-machine ip
 $ docker run -p 8888:8888 caserta_evaluation 
 ```
 
-####Windows 10 Pro, Enterprise or Education (Build 15063 or later) with 64bit: TBD
+*Windows 10 Pro, Enterprise or Education (Build 15063 or later) with 64bit:*
+TBD
 
 ## Note: 
 
