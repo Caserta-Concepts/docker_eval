@@ -1,12 +1,12 @@
 # Caserta Evaluation
 
-## For Mac User
+## For Mac Users
 1. Install Docker
 
 2. Pull and open repository in Terminal
 3. Run "docker build --tag=caserta_evaluation ." to build local docker images (may take up to 20 minutes to complete)
 4. Run "docker run -p 8888:8888 caserta_evaluation " to launch docker container
-5. Go to jupyter link "localhost:8888" and complete the evaluation. 
+5. Go to jupyter link "localhost:8888" and complete the evaluation
 6. Download the notebook as a .ipynb file and send to Andre Chapman (andre@caserta.com)
 
 Steps 2/3/4 in bash
@@ -17,28 +17,30 @@ $ docker build --tag=caserta_evaluation .
 $ docker run -p 8888:8888 caserta_evaluation 
 ```
 
-## For Windows User
+## For Windows Users
 
 *Windows 7/8/10 home with 64bit:*
-1. Install Docker Toolbox: https://docs.docker.com/toolbox/toolbox_install_windows/
+1. Install Docker Toolbox: https://docs.docker.com/toolbox/toolbox_install_windows/, after installation, the icon of Docker Quickstart Terminal will show on Desktop.
 
-2. Open Windows local Terminal, clone Github repo under `C:\Users ` (Toolbox mounts `C:\Users` into the VMs at `/c/Users`)
+2. Open Windows Terminal, clone Github repo under `C:\Users ` (Docker mounts `C:\Users` into the VMs at `/c/Users`)
 
-3. Docker Quickstart Terminal is installed on Desktop, click the icon to launch Docker Toolbox, and wait for the VM to be initiated 
+3. Click the icon of Docker Quickstart Terminal to launch Docker, and wait for the VM to be initiated 
 
-4. Locate docker_eval dir, run "cd /c/Users/docker_eval"
+4. In Docker Terminal:
 
-5. Run "docker build --tag=caserta_evaluation ." to build local docker images (may take up to 20 minutes to complete)
+    4. Locate docker_eval dir, run "cd /c/Users/docker_eval"
+    
+    5. Run "docker build --tag=caserta_evaluation ." to build local docker images (may take up to 20 minutes to complete)
+    
+    6. Run "docker-machine ip" to get VM ip adddress, the output will look something like this: 192.168.99.104 
+    
+    7. Run "docker run -p 8888:8888 caserta_evaluation " to launch docker container
 
-6. Run "docker-machine ip" to get VM ip adddress, the output will look something like this: 192.168.99.104 
+5. Back to Windows web browser, Go to jupyter link "  <your ip address (see above)>:8888  " and complete the evaluation.
 
-7. Run "docker run -p 8888:8888 caserta_evaluation " to launch docker container
+6. Download the notebook as a .ipynb file and send to Andre Chapman (andre@caserta.com)
 
-8. Go to jupyter link "  <your ip address (see above)>:8888  " and complete the evaluation.
-
-9. Download the notebook as a .ipynb file and send to Andre Chapman (andre@caserta.com)
-
-Steps 2/4/5/6/7 in bash
+Steps 2/4 in bash
 ```
 $ git clone https://github.com/Caserta-Concepts/docker_eval.git
 $ cd /c/Users/docker_eval
