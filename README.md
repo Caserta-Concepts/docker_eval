@@ -22,7 +22,7 @@ $ docker run -p 8888:8888 caserta_evaluation
 *Windows 7/8/10 home with 64bit:*
 1. Install Docker Toolbox: https://docs.docker.com/toolbox/toolbox_install_windows/, after installation, the icon of Docker Quickstart Terminal will show on Desktop.
 
-2. Open Windows Terminal, clone Github repo under `C:\Users ` (Docker mounts `C:\Users` into the VMs at `/c/Users`)
+2. Open Windows Terminal, clone Github repo under `C:\Users ` (Docker Toolbox mounts `C:\Users` into the Docker VM at `/c/Users`)
 
 3. Click the icon of Docker Quickstart Terminal to launch Docker, and wait for the VM to be initiated 
 
